@@ -1,2 +1,7 @@
-
-
+p.serif {
+    front-family:"Times New Roman",
+    Times, serif;
+}
+p.cursive{
+    front-family: Florence, cursive;
+}
