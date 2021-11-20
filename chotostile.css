@@ -44,7 +44,7 @@ caption{
 }
 table.fixed {
     table-layout: fixed;
-    color: #f8abe5;
+    background-color: #f8abe5;
 }
 td{
     text-align: center;
