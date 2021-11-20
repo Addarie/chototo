@@ -46,5 +46,5 @@ table.fixed {
     table-layout: fixed;
 }
 td{
-    text-align: center;
+    text-align:right;
 }
