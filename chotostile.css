@@ -1,14 +1,50 @@
 /* коментить так*/
 p.serif {
+    font-size: 400%;
     font-family: 'Times New Roman', Times, serif;
-    color: red;    
+    color: green;
+    text-shadow: 10px 4px 10px blue;    
 }
 p.cursive {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 10px 4px 10px blue;
+    /* x y размытие цвет */
+    font-size: 300%;
+    color: orangered;
+    border: 5px solid red;
+    padding: 12px;
+    border-width: 10px;
+    border-style: dotted;
 }
 li.light {
     font-weight: lighter;
 }
 li.bolder{
     font-weight: bolder;
+}
+body {
+    background-color: rgb(170, 176, 182);
+}
+H1{
+    background-image: url("pic1.jpg");
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(246, 250, 246);
+    text-shadow: 15px 4px 10px green;
+    text-shadow: -15px -4px 10px green;  
+}
+Li {
+    background-color: tan;
+}
+table{
+    background-color: snow;
+}
+caption{
+    text-transform: capitalize;
+    color: ivory;
+}
+table.fixed {
+    table-layout: fixed;
+}
+td{
+    text-align: center;
 }
