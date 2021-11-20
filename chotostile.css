@@ -1,7 +1,17 @@
-p.serif {
-    front-family:"Times New Roman",
-    Times, serif;
+/* коментить так*/
+p {
+    color: green;
+    font-size: 200%;
 }
-p.cursive{
-    front-family: Florence, cursive;
+p.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+p.cursive {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li.light {
+    font-weight: lighter;
+}
+li.bolder{
+    font-weight: bolder;
 }
